@@ -1,0 +1,266 @@
+/* Attribute Dialog stylesheet */
+#app_window_name_self_name{
+
+}
+#app_window_name_splitter{
+    opacity:0.6;
+}
+QDialog {
+    background-color: #ffffff;
+    border: 1px solid #cecece;
+}
+QLineEdit{
+    border: 1px solid #cecece;
+}
+QLineEdit:focus {
+    border: 1px solid #006aa2;
+}
+#baseDialogTitle {
+    border: 3px solid #17A4EC;
+    background-color: #17A4EC;
+}
+
+/* Setting Menu Stylesheet */
+QMenu {
+    background-color: #ffffff;
+    border: 1px solid #cecece;
+}
+QMenu::item {
+    margin: 0px, 0px, 0px, 0px;
+    padding: 10px;
+    font-family:'Segoe UI', Arial, 'Microsoft Yahei', Simsun, sans-serif;
+}
+
+QMenu::item:selected {
+    background-color: #eeeeee;
+    font-family:'Segoe UI', Arial, 'Microsoft Yahei', Simsun, sans-serif;
+}
+
+#app_dock_bar_name_minim_button,#app_dock_bar_name_maxim_button,#app_dock_bar_name_close_button,#app_dock_bar_name_setup_button{
+    width:24px;
+    height:24px;
+    color: black;
+    border: 0px;
+    background-color: transparent;
+}
+
+#app_dock_bar_name_minim_button:hover,#app_dock_bar_name_maxim_button:hover,#app_dock_bar_name_close_button:hover,#app_dock_bar_name_setup_button:hover{
+    color: white;
+    background-color: transparent;
+}
+
+#app_dock_bar_name_text_label{
+	font-family:'Segoe UI', Arial, 'Microsoft Yahei', Simsun, sans-serif;
+	font-size:12px;
+	font-weight:0;
+	color:#ffffff;
+}
+
+QToolButton, #publishBtn,#newBtn,#attributeBtn {
+    background: #E0E0E0;
+    color: black;
+    border: 1px solid #ddd;
+    width:100px;
+    font-family:'Segoe UI', Arial, 'Microsoft Yahei', Simsun, sans-serif;
+}
+
+/**************************splitter*********************/
+#app_splitter_markdown{
+	font-family: 'Georgia','Times New Roman','Times','Songti SC','SimSun','serif';
+	font-weight:100;
+	font-size:18px;
+	line-height:30px;
+	color:#2f2f2f;
+}
+#app_markdown_border{
+	font-size:16px;
+}
+/**************************splitter*********************/
+
+/***********************dialog start********************/
+#dialog_about_close_button{
+	background: #ffffff;
+	border-width: 0px;
+}
+
+#dialog_about_close_button:hover{
+	background: #f0f0f0;
+	border: 1px solid #f0f0f0;
+}
+
+#dialog_about_ok_button{
+	background: #f0f0f0;
+	border: 1px solid #ececec;
+	font-family:'Segoe UI', Arial, 'Microsoft Yahei', Simsun, sans-serif;
+	font-size: 14px;
+}
+
+#dialog_about_ok_button:hover{
+	background: #ececec;
+	border: 1px solid #ececec;
+	font-family:'Segoe UI', Arial, 'Microsoft Yahei', Simsun, sans-serif;
+	font-size: 16px;
+}
+
+#dialog_about_title_label, #dialog_about_ok_button{
+	font-family:'Segoe UI', Arial, 'Microsoft Yahei', Simsun, sans-serif;
+}
+
+#dialog_about_head_text_label{
+	font-family:'Segoe UI', Arial, 'Microsoft Yahei', Simsun, sans-serif;
+	font-size:24px;
+	font-weight:0;
+	color:#454545;
+}
+
+#dialog_about_content_text_label{
+	font-family:'Segoe UI', Arial, 'Microsoft Yahei', Simsun, sans-serif;
+	font-size:14px;
+	font-weight:0;
+	line-height:25px;
+	color:#454545;
+}
+
+#dialog_about_version_info_label{
+	font-family:'Segoe UI', Arial, 'Microsoft Yahei', Simsun, sans-serif;
+	font-size:16px;
+	font-weight:0;
+	line-height:25px;
+	color:#454545;
+}
+/***********************dialog end********************/
+
+/*********************messagebox start****************/
+#dialog_message_check_layout{
+	background:#cecece;
+}
+#dialog_message_title_label, #dialog_message_text_label, #dialog_message_check_label{
+	font-family:'Segoe UI', Arial, 'Microsoft Yahei', Simsun, sans-serif;
+	font-size: 14px;
+}
+#dialog_message_title_close_button{
+	background: #ffffff;
+	border-width:0px;
+}
+#dialog_message_title_close_button:hover{
+	background: #f0f0f0;
+	border: 1px solid #f0f0f0;
+}
+#dialog_message_yes_button, #dialog_message_no_button, #dialog_message_cancel_button{
+	background: #f0f0f0;
+	border: 1px solid #ececec;
+	font-family:'Segoe UI', Arial, 'Microsoft Yahei', Simsun, sans-serif;
+	font-size: 14px;
+}
+#dialog_message_yes_button:hover, #dialog_message_no_button:hover, #dialog_message_cancel_button:hover{
+	background: #ececec;
+	border: 1px solid #ececec;
+	font-family:'Segoe UI', Arial, 'Microsoft Yahei', Simsun, sans-serif;
+	font-size: 14px;
+}
+#dialog_message_check_box {
+	spacing: 5px;
+}
+
+#dialog_message_check_box::indicator {
+	width: 13px;
+	height: 13px;
+}
+
+#dialog_message_check_box::indicator:unchecked {
+	border:1px solid #f0f0f0;
+}
+
+#dialog_message_check_box::indicator:unchecked:hover {
+	border:1px solid #cecece;
+}
+
+#dialog_message_check_box::indicator:unchecked:pressed {
+	border:1px solid #cecece;
+}
+
+#dialog_message_check_box::indicator:checked {
+	background:#d8d8d8;
+	border:1px solid #cecece;
+}
+
+#dialog_message_check_box::indicator:checked:hover {
+    border:1px solid #cecece;
+}
+
+#dialog_message_check_box::indicator:checked:pressed {
+	border:1px solid #cecece;
+}
+
+#dialog_message_check_box::indicator:indeterminate:hover {
+	border:1px solid #cecece;
+}
+
+#dialog_message_check_box::indicator:indeterminate:pressed {
+	border:1px solid #cecece;
+}
+/*********************messagebox end******************/
+
+QToolButton:hover, #publishBtn:hover, #newBtn:hover, #attributeBtn:hover, QToolButton:checked{
+    background: #1f8dd6;
+    color: white;
+    border: 1px solid #1f8dd6;
+    font-family:'Segoe UI', Arial, 'Microsoft Yahei', Simsun, sans-serif;
+}
+
+#mdEditor{
+    border:1px solid #f0f0f0;
+}
+
+QToolButton::menu-indicator{
+     image: None;
+}
+
+QWebView{
+    font-family:'Segoe UI', Arial, 'Microsoft Yahei', Simsun, sans-serif;
+}
+
+QScrollBar:vertical
+{
+    /*border-top:1px solid #86A3DA;*/
+    background-color:white;
+    max-width:14px;
+    min-width:14px;
+}
+QScrollBar::handle:vertical {
+    /*background:url(skins/img/ButtonBg/bg-scroll-3-1.png) no-repeat;*/
+    background-color:#cecece;
+    min-width:13px;
+    min-height:39px;
+    max-width:13px;
+    max-height:39px;
+    margin-right:1px;
+}
+QScrollBar::handle:vertical:hover
+{
+    /*background:url(skins/img/ButtonBg/bg-scroll-3-2.png) no-repeat;*/
+    background-color:#7b7b7b;
+}
+QScrollBar::add-line:vertical {
+      border: none;
+      background:rgb(0,0,0,0);
+      width:0px;
+      height:0px;
+      subcontrol-position: bottom;
+      subcontrol-origin: margin;
+}
+QScrollBar::sub-line:vertical{
+      border:none;
+      background:rgb(0,0,0,0);
+      width:0px;
+      height:0px;
+      subcontrol-position: top;
+      subcontrol-origin: margin;
+}
+QScrollBar::add-page:vertical , QScrollBar::sub-page:vertical {
+      background: none;
+}
+QMessageBox{
+	width:100px;
+	height:60px;
+}

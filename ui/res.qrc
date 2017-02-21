@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/images">
+        <file alias="close_dialog">skin/image/16_16/close_dialog.png</file>
+        <file alias="logo_m_t">skin/image/16_16/logo-m-t.ico</file>
+        <file alias="close">skin/image/24_24/close.png</file>
+        <file alias="max">skin/image/24_24/max.png</file>
+        <file alias="mini">skin/image/24_24/mini.png</file>
+        <file alias="normal">skin/image/24_24/normal.png</file>
+        <file alias="setup">skin/image/24_24/setup.png</file>
+        <file alias="title_bg">skin/image/200_1/title_bg.png</file>
+        <file alias="about_icon">skin/image/200_200/aboutIcon.png</file>
+        <file alias="page_process">skin/image/64_64/page_process.png</file>
+        <file alias="page_process_128">skin/image/128_128/page_process.png</file>
+    </qresource>
+    <qresource prefix="/script">
+        <file alias="marked">script/marked.js</file>
+    </qresource>
+    <qresource prefix="/html">
+        <file alias="default">skin/html/default.html</file>
+    </qresource>
+    <qresource prefix="/qss">
+        <file alias="default">skin/qss/default.qss</file>
+    </qresource>
+</RCC>
