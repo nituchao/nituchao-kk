@@ -1,5 +1,5 @@
 ## 截图
-![kk](http://olno3yiqc.bkt.clouddn.com/blog/kk/kk.png)
+![kk](kk.png)
 
 ## 介绍
  * 这是一个Markdown编辑器，通过QT实现，可以跨平台编译，支持Windows，Linux，Mac OS。
@@ -13,7 +13,7 @@
  * 自定义背景样式
  
  ## 下载
- ![kk下载](http://olno3yiqc.bkt.clouddn.com/blog/kk/kk.zip)
+ [kk下载](http://olno3yiqc.bkt.clouddn.com/blog/kk/kk.zip)
 
 ## Google V8 Engine
 * markplus内置了一个Goolge Javascrip V8 Engine 的实例，以动态链接库的形式调用，来执行Js脚本，完成markdow语法的解析。
